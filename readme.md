@@ -14,10 +14,24 @@ Laravel is accessible, yet powerful, providing powerful tools needed for large, 
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## How to install
 
-### License
+Follow this steps to make it work.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+### Download composer to download the libraries used in this application
+
+Download [composer](http://getcomposer.org) here. 
+Then run this command. 'composer install' without the qoute.
+
+Once done. Check the source code if 'vendor' folder exist.
+
+### Create or Update .env file to configure the application setting
+
+Check your root folder if .env file exist if not, copy the .env.example file and re-create an .env file
+Update the following settings based on your server setting.
+
+DATABASE NAME AND CREDENTIALS
+BLOB STORAGE SETTING
+
+Replace the FILE_STORAGE and IMAGE_STORAGE to 'azure' if you want to use the Azure Blob Storage service.
